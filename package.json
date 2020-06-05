@@ -1,0 +1,25 @@
+{
+  "name": "maggie-c-research",
+  "version": "1.0.0",
+  "description": "NodeJS Twitter Search Tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"run\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WestCornfield/maggie-c-research.git"
+  },
+  "keywords": [
+    "research"
+  ],
+  "author": "Wes Corwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WestCornfield/maggie-c-research/issues"
+  },
+  "homepage": "https://github.com/WestCornfield/maggie-c-research#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}
