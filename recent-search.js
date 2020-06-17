@@ -9,7 +9,12 @@ const consumer_key = 'B9n6MyQXb5rsAgzymShRs3VHF'; // Add your API key here
 const consumer_secret = 'SVaoYWIkD5qGnbollOZLBXcD8klkJU0sIdWO4k2J7cSfK70uhc'; // Add your API secret key here
 
 const bearerTokenURL = new URL('https://api.twitter.com/oauth2/token');
-const searchURL = new URL('https://api.twitter.com/labs/2/tweets/search?tweet.fields=created_at,author_id,lang,text&query=%23blacklivesmatter motherhood -is:retweet&max_results=100#blacklivesmatter%20motherhood%20-is:retweet&max_results=100');
+const tweetFields = "created_at,author_id,lang,text";
+const query = "%23blacklivesmatter%20motherhood%20-is:retweet"
+const maxResults = '100'
+
+
+const searchURL = new URL('https://api.twitter.com/labs/2/tweets/search?tweet.fields='+tweetFields+'&query='+query+'&max_results='+maxResults);
 
 async function bearerToken (auth) {
   const requestConfig = {
