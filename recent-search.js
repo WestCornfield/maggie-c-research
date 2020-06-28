@@ -10,7 +10,7 @@ const consumer_secret = 'SVaoYWIkD5qGnbollOZLBXcD8klkJU0sIdWO4k2J7cSfK70uhc'; //
 
 const bearerTokenURL = new URL('https://api.twitter.com/oauth2/token');
 const tweetFields = "created_at,author_id,lang,text";
-const query = "%23blacklivesmatter%20motherhood%20-is:retweet"
+const query = "blacklivesmatter%20mother%20-is:retweet"
 const maxResults = '100'
 
 
