@@ -1,4 +1,6 @@
-# To download this project,
+# Maggie C Research
+
+## To download this project,
 
 Open up your terminal
 
@@ -6,12 +8,12 @@ Open up your terminal
 git clone https://github.com/WestCornfield/maggie-c-research.git
 ```
 
-# To use this project
+## To use this project
 
 From the same directory you downloaded the git repo to,
 
 
-# RECENT SEARCH
+## Recent Search
 This call will go through recent tweets
 
 ```
@@ -20,7 +22,7 @@ cd maggie-c-research
 node recent-search.js
 ```
 
-# FULL ARCHIVE SEARCH
+## Full Archive Search
 This call will go through the full twitter ARCHIVE
 
 ```
