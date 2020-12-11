@@ -40,3 +40,23 @@ cd maggie-c-research
 
 node full-archive-search.js 202010010000 202011010000
 ```
+
+## FAQ
+
+### When I run the command, it doesn't do anything!
+
+In the terminal, try running ```brew install node``` first.
+
+### Brew doesn't work either!
+
+Let's start from the beginning =>
+
+In order:
+
+```git clone https://github.com/WestCornfield/maggie-c-research.git```
+
+```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+
+```brew install node```
+
+Then run the commands you would like.
